@@ -9,7 +9,7 @@
       <ul>
         <li><a href="#data-modeling">Data Modeling</a></li>
         <li><a href="#application-operations">Application operations </a></li>
-        <li><a href="#compare-and-evaluate-using-threads">Compare and evaluate using Threads</a></li>
+        <li><a href="#compare-and-evaluate-using-concurrent-threads">Compare and evaluate using concurrent threads</a></li>
       </ul>
     </li>
     <li>
@@ -85,7 +85,7 @@ In this project, we will compare the performance of MongoDB with PostgreSQL.
 
 
 
-### Compare and evaluate using Threads
+### Compare and evaluate using concurrent threads
     
     Test the performance of the application with a number of concurrent threads. ranging from 1-10.
        
