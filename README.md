@@ -42,33 +42,33 @@ In this project, we will compare the performance of MongoDB with PostgreSQL.
  * MongoDB : 
 
         Users : {
-         Username : _
-         Password : _
-         Fname : _
-         Name : _
+           Username : _
+           Password : _
+           Fname : _
+           Name : _
         }
         
         Products : {
-         Id: _ 
-         Name : _
-         Description : _
-         Price : _
-         Stock : _
+           Id: _ 
+           Name : _
+           Description : _
+           Price : _
+           Stock : _
         }
         
         Reviews : {
-        Username : _
-        ProductId : _
-        Rating : _
-        Description : _
-        createdAt : _
+          Username : _
+          ProductId : _
+          Rating : _
+          Description : _
+          createdAt : _
         }
         
         Orders : {
-        Id : _
-        Username : _
-        CreatedAt : _
-        productsOrdered: [ { product_id : _ , Quantity : _ }.. ]
+          Id : _
+          Username : _
+          CreatedAt : _
+          productsOrdered: [ { product_id : _ , Quantity : _ }.. ]
         }
          
          
