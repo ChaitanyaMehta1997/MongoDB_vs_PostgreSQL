@@ -1,6 +1,6 @@
 # MongoDB_vs_PostgreSQL
 
-An E commerce application using 2 different databases - relational and NoSQL databases.
+Implementation of an E commerce application using 2 different databases - relational and NoSQL databases.
 The goal is to figure out which database to use depending on the performance in real life scenarios.
 
     MongoDB_vs_PostGreSQL/
