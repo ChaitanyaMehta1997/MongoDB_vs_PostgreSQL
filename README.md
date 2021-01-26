@@ -38,7 +38,7 @@ In this project, we will compare the performance of MongoDB with PostgreSQL.
 
 ### Data Modeling
 
-* MongoDB -> [MongoDB_model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/MongoDBModel.py).
+* MongoDB -> [MongoDBModel.py](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/MongoDBModel.py).
 
 * PostgreSQL -> [PostgreSQL Model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/PostgreModel.py).
          
@@ -87,7 +87,7 @@ In this project, we will compare the performance of MongoDB with PostgreSQL.
 
 ### Compare and evaluate using concurrent threads  
 
-* [Program link](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/TestPerformance.py#L44)
+* Program to evaluate :  [TestPerformance.py](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/TestPerformance.py#L44)
     
     Test the performance of the application with a number of concurrent threads. ranging from 1-10.
     For a period of five minutes, all threads will repeatedly execute one of the operations
