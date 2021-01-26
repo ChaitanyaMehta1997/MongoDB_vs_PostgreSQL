@@ -7,7 +7,9 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#data-modeling">Data Modeling</a></li>
+        <li><a href="#application-operations">Application operations </a></li>
+        <li><a href="#compare-and-evaluate">Compare and evaluate</a></li>
       </ul>
     </li>
     <li>
@@ -34,14 +36,14 @@ NoSql databases like MongoDB are able to achieve scalability, availability and p
 
 In this project, we will compare the performance of MongoDB with PostgreSQL. 
 
-Step 1 : Data Modeling 
+### Data Modeling
 
 * MongoDB -> [MongoDB_model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/MongoDBModel.py).
 
 * PostgreSQL -> [PostgreSQL Model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/PostgreModel.py).
          
          
-Step 2 : Application operations 
+### Application operations 
 
 * CreateAccount(username, password, firstName, lastName) :
   
@@ -83,7 +85,7 @@ Step 2 : Application operations
 
 
 
-Step 3 : Compare and evaluate
+### Compare and evaluate
     
     Test the performance of the application with a number of concurrent threads. ranging from 1-10.
        
