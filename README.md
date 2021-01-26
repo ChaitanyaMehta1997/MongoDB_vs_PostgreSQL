@@ -79,9 +79,13 @@ In this project, we will compare the performance of MongoDB with PostgreSQL.
          
 ### Application operations 
 
-* MongoDB -> [MongoDBModel.py](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/MongoDBModel.py).
+Final Code:
 
-* PostgreSQL -> [PostgreSQL Model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/PostgreModel.py).
+* MongoDB : [MongoDBModel.py](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/MongoDBModel.py).
+
+* PostgreSQL : [PostgreSQLModel.py](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/PostgreModel.py).
+
+Operations: 
 
 * CreateAccount(username, password, firstName, lastName) :
   
