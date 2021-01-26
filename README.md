@@ -87,10 +87,9 @@ In this project, we will compare the performance of MongoDB with PostgreSQL.
 
 ### Compare and evaluate using concurrent threads  
 
-* [evaluation code link](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/TestPerformance.py#L44)
+* [Program link](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/TestPerformance.py#L44)
     
     Test the performance of the application with a number of concurrent threads. ranging from 1-10.
-       
     For a period of five minutes, all threads will repeatedly execute one of the operations
     we have implemented in a loop. Which operation to perform each time will be selected at
     random according to the following probabilities:
@@ -103,7 +102,7 @@ In this project, we will compare the performance of MongoDB with PostgreSQL.
 * 5%, execute PostReview operation for a random user and product
 
 
-
+      This program link is modular and independent of the underlying database 
 
 ### Built With
 
