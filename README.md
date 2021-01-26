@@ -43,6 +43,42 @@ Step 1 : Data Modeling
          
 Step 2 : Application operations 
 
+* CreateAccount(username, password, firstName, lastName)
+
+  Establishes a new account for the user. This should fail if the username already exists.
+
+* SubmitOrder(username, password, listOfProductsAndQuantities)
+
+  First the username and password to be checked to ensure the order is authorized. (Note
+  that this is not a secure way to implement such a system, but it will suffice for our
+  purposes.) After authorization, you should check that the items are available. If  any  of
+  the items are not available in the desired quantity, the order is not submitted. Otherwise,
+  a record for the order is created and the stock levels are reduced accordingly.
+
+* PostReview(username, password, productID, rating, reviewText)
+
+  First authorizes the user (as above) and then submits a review. Each user should also
+  only be able to post a single review for a given product.
+
+* AddProduct(name, description, price, initialStock)
+  A new product is added to the database with the given name and description and the
+  given initial stock value. This operation should provide an ID for the product which can
+  be used in future operations.
+
+* UpdateStockLevel(productID, itemCountToAdd)
+  Adds new inventory associated with the product. The given number of items should be
+  added to the current stock level.
+
+* GetProductAndReviews(productID)
+  Return the product information and all the reviews for the given product including the
+  username of the reviewing user, the rating, and the text of the review.
+
+* GetAverageUserRating(username)
+  Get the average rating value for a given user by adding the ratings for all products and
+  dividing by the total number of reviews the user has provided.
+
+
+
 Step 3 : Compare and evaluate
     
     Test the performance of the application with a number of concurrent threads. ranging from 1-10.
