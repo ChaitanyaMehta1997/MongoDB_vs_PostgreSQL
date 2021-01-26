@@ -44,17 +44,19 @@ Step 1 : Data Modeling
 Step 2 : Application operations 
 
 Step 3 : Compare and evaluate
-        test the performance of the application with a number of concurrent threads. ranging from 1-10.
-        For a period of five minutes, all threads will repeatedly execute one of the operations
-        we have implemented in a loop. Which operation to perform each time will be selected at
-        random according to the following probabilities:
-        * 3%, execute the CreateAccount operation with a random user
-        * 2%, execute the AddProduct operation with a random product
-        * 10%, execute the UpdateStockLevel operation for a random product
-        * 65%, execute the GetProductAndReviews operation for a random product
-        * 5%, execute the GetAverageUserRating operation for a random user and product
-        * 10%, execute the SubmitOrder operation with a random user and 10 random products
-        * 5%, execute PostReview operation for a random user and product
+    
+    Test the performance of the application with a number of concurrent threads. ranging from 1-10.
+       
+    For a period of five minutes, all threads will repeatedly execute one of the operations
+    we have implemented in a loop. Which operation to perform each time will be selected at
+    random according to the following probabilities:
+* 3%, execute the CreateAccount operation with a random user
+* 2%, execute the AddProduct operation with a random product
+* 10%, execute the UpdateStockLevel operation for a random product
+* 65%, execute the GetProductAndReviews operation for a random product
+* 5%, execute the GetAverageUserRating operation for a random user and product
+* 10%, execute the SubmitOrder operation with a random user and 10 random products
+* 5%, execute PostReview operation for a random user and product
 
 
 
