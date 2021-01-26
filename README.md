@@ -150,7 +150,9 @@ In this project, we will compare the performance of MongoDB with PostgreSQL.
 
 
 
-### Prerequisites
+### TODO
+
+Add results
 
 
 
