@@ -27,20 +27,35 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About This Project - MongoDB vs PostgreSQL
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+NoSql databases like MongoDB are able to achieve scalability, availability and performance. While these are very important to a database system, we cannot forget atomicity, consistency, isolation and durability.( The ACID properties).
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+In this project, we will compare the performance of MongoDB with PostgreSQL. 
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+Step 1 : Data Modeling 
+         MongoDB -> [MongoDB_model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/MongoDBModel.py)
+         PostgreSQL -> [https://example.com](https://example.com)
+         
+         
+Step 2 : Application operations 
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Step 3 : Compare and evaluate
+        test the performance of the application with a number of concurrent threads. ranging from 1-10.
+        For a period of five minutes, all threads will repeatedly execute one of the operations
+        we have implemented in a loop. Which operation to perform each time will be selected at
+        random according to the following probabilities:
+        - 3%, execute the CreateAccount operation with a random user
+        - 2%, execute the AddProduct operation with a random product
+        - 10%, execute the UpdateStockLevel operation for a random product
+        - 65%, execute the GetProductAndReviews operation for a random product
+        - 5%, execute the GetAverageUserRating operation for a random user and product
+        - 10%, execute the SubmitOrder operation with a random user and 10 random products
+        - 5%, execute PostReview operation for a random user and product
+
+
+
 
 ### Built With
 
