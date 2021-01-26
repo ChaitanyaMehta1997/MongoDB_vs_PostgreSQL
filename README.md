@@ -35,9 +35,10 @@ NoSql databases like MongoDB are able to achieve scalability, availability and p
 In this project, we will compare the performance of MongoDB with PostgreSQL. 
 
 Step 1 : Data Modeling 
-         MongoDB -> [MongoDB_model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/MongoDBModel.py).
-         
-         PostgreSQL -> [https://example.com](https://example.com)
+
+   MongoDB -> [MongoDB_model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/MongoDBModel.py).
+
+   PostgreSQL -> [PostgreSQL Model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/PostgreModel.py).
          
          
 Step 2 : Application operations 
