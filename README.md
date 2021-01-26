@@ -38,12 +38,45 @@ In this project, we will compare the performance of MongoDB with PostgreSQL.
 
 ### Data Modeling
 
-* MongoDB -> [MongoDBModel.py](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/MongoDBModel.py).
+ * PostGreSQL : [create tables code](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/105a10e2dcc7d0e564447e88ab6aaf4aa4d96b22/MongoDB_vs_PostGreSQL/package/PostgreModel.py#L254) 
+ * MongoDB : 
 
-* PostgreSQL -> [PostgreSQL Model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/PostgreModel.py).
+        Users : {
+         Username : _
+         Password : _
+         Fname : _
+         Name : _
+        }
+        
+        Products : {
+         Id: _ 
+         Name : _
+         Description : _
+         Price : _
+         Stock : _
+        }
+        
+        Reviews : {
+        Username : _
+        ProductId : _
+        Rating : _
+        Description : _
+        createdAt : _
+        }
+        
+        Orders : {
+        Id : _
+        Username : _
+        CreatedAt : _
+        productsOrdered: [ { product_id : _ , Quantity : _ }.. ]
+        }
          
          
 ### Application operations 
+
+* MongoDB -> [MongoDBModel.py](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/MongoDBModel.py).
+
+* PostgreSQL -> [PostgreSQL Model](https://github.com/ChaitanyaMehta1997/MongoDB_vs_PostgreSQL/blob/main/MongoDB_vs_PostGreSQL/package/PostgreModel.py).
 
 * CreateAccount(username, password, firstName, lastName) :
   
@@ -53,8 +86,7 @@ In this project, we will compare the performance of MongoDB with PostgreSQL.
 
       First the username and password to be checked to ensure the order is authorized. (Note
       that this is not a secure way to implement such a system, but it will suffice for our
-      purposes.) After authorization, you should check that the items are available. If  any  of
-      the items are not available in the desired quantity, the order is not submitted. Otherwise,
+      purposes.) If  any  of the items are not available in the desired quantity, the order is not submitted. Otherwise,
       a record for the order is created and the stock levels are reduced accordingly.
 
 * PostReview(username, password, productID, rating, reviewText)
