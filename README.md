@@ -1,5 +1,9 @@
 # MongoDB_vs_PostgreSQL
 
+An E commerce application using 2 different databases - relational and NoSQL databases.
+
+The goal is to figure out which database to use depending on the performance in real life scenarios.
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
