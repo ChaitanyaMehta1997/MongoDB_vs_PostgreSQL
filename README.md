@@ -3,6 +3,24 @@
 An E commerce application using 2 different databases - relational and NoSQL databases.
 The goal is to figure out which database to use depending on the performance in real life scenarios.
 
+MongoDB_vs_PostGreSQL/
+├── __init__.py
+├── package
+│   ├── config.py
+│   ├── __init__.py
+│   ├── MongoDBModel.py
+│   ├── PostgreModel.py
+│   ├── __pycache__
+│   │   ├── config.cpython-38.pyc
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── Seeder.cpython-38.pyc
+│   │   └── TestPerformance.cpython-38.pyc
+│   ├── Seeder.py
+│   └── TestPerformance.py
+└── __pycache__
+    └── __init__.cpython-38.pyc
+
+
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
